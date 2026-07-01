@@ -1,0 +1,36 @@
+# Raw data
+data.csv
+*.csv
+
+# Keep cleaned deliverable if needed
+!clean_online_retail.csv
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Logs/temp files
+*.log
+*.tmp
