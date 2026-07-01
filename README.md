@@ -2,6 +2,12 @@
 
 GitHub repository: https://github.com/Luke-Sanders1/MiniProject1
 
+## Authors
+
+- Omar Gomaa
+- Luke Sanders
+- Gaurav K Harish
+
 ## Overview
 
 This project cleans and analyzes the **Online Retail / E-Commerce Data** dataset, a real transaction dataset from a UK-based non-store online retailer. The company mainly sells unique all-occasion gifts, and many of its customers are wholesalers.
