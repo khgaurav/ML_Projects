@@ -1,6 +1,5 @@
 # Raw data
 data.csv
-*.csv
 
 # Keep cleaned deliverable if needed
 !clean_online_retail.csv

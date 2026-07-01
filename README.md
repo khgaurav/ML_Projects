@@ -178,8 +178,3 @@ It includes:
 - Comparing inner joins and left joins
 - Identifying countries without region matches
 
-The final region-enriched dataframe is stored as:
-
-```python
-enriched_df
-```
