@@ -1,28 +1,19 @@
-# Assignment 03: WheelsBazaar Used-Car Price Prediction
+# Assignment 04: Titanic Survival Prediction using Decision Trees
 
 ## What this project does
 
-This project uses the WheelsBazaar used-car dataset in `car details v4.csv` to build a multivariable linear regression model (using Ridge regression) that predicts the fair market price of a used car from its attributes.
-
-The notebook:
-- Loads and inspects the dataset (`car details v4.csv`)
-- Prepares the features by handling missing values and one-hot encoding categorical variables
-- Splits the dataset into training (80%) and test (20%) sets
-- Fits a Ridge regression model on the log-transformed target price
-- Reports the intercept, alpha parameter, and top feature coefficients
-- Evaluates the model on unseen test data using $R^2$, MAE, and RMSE
-- Estimates the fair market price for a sample custom car listing
+This project builds a Decision Tree model to predict the survival of passengers on the Titanic using the dataset `titanic.csv`.
+- **Data Preprocessing & Cleaning**: Selecting features (`Pclass`, `Sex`, `Age`, `Fare`), encoding categorical columns with `LabelEncoder`, and filling missing values in `Age`.
+- **Data Splitting**: Splitting into training (80%) and testing (20%) sets.
+- **Model Training & Evaluation**: Training a `DecisionTreeClassifier` with `max_depth=3` to avoid overfitting, and calculating train and test accuracy.
+- **Model Interpretation**: Visualizing the decision tree splits and feature importances.
 
 ## How to run the notebook
 
-1. Open `Assignment_03.ipynb` in Jupyter Notebook or VS Code.
-2. Make sure `car details v4.csv` is in the same folder as the notebook.
+1. Open `Assignment_04.ipynb` in Jupyter Notebook, JupyterLab, or VS Code.
+2. Make sure `titanic.csv` is in the same folder as the notebook.
 3. Run the cells from top to bottom.
-4. If needed, install the required Python packages listed in `requirements.txt`.
-
-Example:
-
-```bash
-pip install -r requirements.txt
-jupyter notebook Assignment_03.ipynb
-```
+4. If needed, install the required packages using the `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
